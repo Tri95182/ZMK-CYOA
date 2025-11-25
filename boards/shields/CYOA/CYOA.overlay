@@ -1,7 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 // numpad.overlay
 #include "CYOA-layouts.dtsi"
-{
+/ {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &CYOA_physical_layout0;
